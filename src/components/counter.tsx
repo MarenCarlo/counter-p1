@@ -5,7 +5,7 @@ export const Contador = () => {
      * Contador de clicks
      */
 
-    const [numero, setNumero] = useState(0);
+    const [numero, setNumero] = useState<number>(0);
     return (
         <Fragment>
             <div className='container my-5'>
